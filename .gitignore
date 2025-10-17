@@ -1,0 +1,23 @@
+@'
+node_modules/
+npm-debug.log*
+yarn.lock
+package-lock.json
+
+android/app/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+*.keystore
+
+ios/Pods/
+ios/build/
+*.xcuserdatad
+*.xcworkspace/xcuserdata/
+
+.expo/
+.bundle/
+.watchmanconfig
+.DS_Store
+.env
+'@ | Set-Content -Encoding utf8 .gitignore
